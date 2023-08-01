@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans Gujarati', sans-serif;
+}
+
+.logo {
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    top: 5px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav {
+    background: #1C6758;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    justify-content: space-between;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 10px;
+}
+
+.links {
+    padding-left: 500px;
+    border-right: 2px solid white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.links a:hover {
+    background: white;
+    color: #1C6758;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.search {
+    display: flex;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1C6758;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.searchlogo {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.login {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 22px;
+    background: #1C6758;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.login:hover {
+    box-sizing: border-box;
+    color: #1C6758;
+    background: white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.userlogo {
+    padding-right: 7px;
+}
+
+.toggle_btn{
+    color: black;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    display: none;
+}
+
+/* --------------------------recipe----------------------------- */
+.content {
+    background-color: #DEF5E5;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.heading {
+    padding-top: 20px;
+    margin-top: 15vh;
+    font-size: 2rem;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    color: #1C6758;
+    cursor: pointer;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 0px 50px 50px 50px;
+}
+
+.recipe-content {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.description {
+    padding: 30px 0px 30px 50px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.description:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.description h3 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.description ul {
+    font-size: 1.5rem;
+}
+
+.image {
+    width: 65%;
+}
+
+.image img {
+    width: 800px;
+    border-radius: 50px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.recipe{
+    width: 90%;
+    margin: auto;
+    background: #DEF5E5;
+    border-radius: 50px;
+    padding: 0px 50px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.head{
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.head h3{
+    font-size: 2rem;
+    color: #1C6758;
+    border-bottom: 2px solid black;
+}
+
+.ingridiants-text{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingridiants-text ol{
+    font-size: 1.5rem;
+}
+
+.ingridiants-text ol h5{
+    font-size: 1.5rem;
+}
+
+.ingridiants-text ol li{
+    padding-bottom: 5px;
+}
+
+.steps{
+    margin: 30px 0px 0px 50px;
+}
+
+.steps ol{
+    font-size: 1.5rem;
+}
+
+.steps ol li{
+    padding-bottom: 15px;
+}
+
+.r-footer{
+    margin-top: 3vh;
+    border-top: 2px solid black;
+    text-align: right;
+}   
+
+.r-footer h3{
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #1C6758;
+}
+
+/* --------------------footer------------------- */
+.footer{
+    margin-top: 10vh;
+    background: #1C6758;
+ }
+ 
+ .footer-content{
+     padding: 3vh 0vh 3vh 0vh;
+     color: white;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .footer-contect{
+     font-size: 1.2rem;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+ 
+ .follow{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     gap: 7px;
+     font-size: 1.2rem;
+     width: 50%;
+ }
+ 
+ .social-link i{
+     font-size: 1.7rem;
+     padding: 0px 10px 0px 10px;
+ }
+ 
+ .copyright{
+     background-color: rgb(21, 58, 54);
+     color: white;
+     height: 5vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* -------------------------dropdown------------------- */
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 100px;
+    position: fixed;
+    z-index: 10;
+    height: 0px;
+    width: 200px;
+    background: #DEF5E5;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 150px;
+}
+
+.dropdown_menu a{
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------------Responsive------------------------ */
+
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
+    /* code in this block will be applied only if device width>1281 */
+    }
+
+  /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* code in this block will be applied only if device width>1025 and <1280 */
+    .links {
+        padding-left: 10px;
+        margin-left: auto;
+    }
+
+    .links a {
+        font-size: 1rem;
+        margin-right: 8px;
+        padding: 0;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .nav {
+        margin: auto;
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .nav img {
+        width: 15rem;
+    }
+
+    .login {
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 18px;
+    }
+
+    .logo {
+        margin-left: 2px;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+    .logo {
+        width: 10rem;
+    }
+
+    .search {
+        padding: 10px 15px 10px 4px;
+        margin-left: 15px;
+    }
+
+    .search i {
+        padding-left: 10px;
+    }
+    .content{
+        width: 85%;
+        margin-top: -50px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .recipe-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .image img{
+        width: 750px;
+        margin-left: -80px;
+    }
+    .description{
+        width: 28%;
+    }
+    .description h3{
+        font-size: 1.9rem;
+    }
+    .description ul{
+        font-size: 1.2rem;
+    }
+    .recipe{
+        width: 85%;
+        /* padding-left: -50px; */
+        padding: 0px -50px -50px -50px;
+        margin-bottom: -50px;
+    }
+    .ingridiants-text ol{
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        margin-left: 30px   ;
+    }
+    .recipe-text{
+        margin-top: -50px;
+    }
+    .steps ol{
+        font-size: 1.2rem;
+    }
+
+  }
+  
+  /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* code in this block will be applied only if device width>768 and <1024 */
+    .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: flex;
+        align-items: center;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+    .head{
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .links {
+        padding-left: 10px;
+        margin-left: auto;
+    }
+
+    .links a {
+        font-size: 1rem;
+        margin-right: 8px;
+        padding: 0;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .nav {
+        margin: auto;
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .nav img {
+        width: 15rem;
+    }
+
+    .login {
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 18px;
+    }
+
+    .logo {
+        margin-left: 2px;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+
+    .search {
+        padding: 10px 15px 10px 4px;
+        margin-left: 15px;
+    }
+
+    .search i {
+        padding-left: 10px;
+    }
+    .content{
+        width: 80%;
+        margin-top: -50px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .recipe-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .image img{
+        width: 650px;
+        margin-left: -120px;
+    }
+    .description{
+        width: 37%;
+    }
+    .description h3{
+        font-size: 1.9rem;
+    }
+    .description ul{
+        font-size: 1.2rem;
+    }
+    .recipe{
+        width: 80%;
+        /* padding-left: -50px; */
+        padding: 0px -50px -50px -50px;
+        margin-bottom: -50px;
+    }
+    .ingridiants{
+        margin-left: -50px;
+    }
+    .ingridiants-text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+    }
+    .ingridiants-text ol{
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        margin-left: 30px   ;
+    }
+    .recipe-text{
+        margin-top: -50px;
+        margin-left: -80px;
+    }
+    .steps ol{
+        font-size: 1.2rem;
+        margin-left: 70px;
+    }
+
+  }
+  /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* code in this block will be applied only if device width>481 and <767 */
+    .links {
+        display: none;
+    }
+
+    .links a {
+        font-size: 1rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .nav {
+        margin: auto;
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .nav img {
+        width: 15rem;
+    }
+
+    .login {
+        margin: auto;
+        margin-left: 5px;
+        padding: 18px;
+    }
+
+    .logo {
+        margin-left: 2px;
+        /* margin-right: -25px; */
+    }
+
+    .navbar .toggle_btn {
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .search {
+        padding: 10px 15px 10px 4px;
+    }
+
+    .search i {
+        padding-left: 10px;
+    }
+
+    .h-image {
+        width: auto;
+        margin-top: -24vh;
+        margin-bottom: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+    .content{
+        width: 75%;
+        margin-top: -50px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .recipe-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .image img{
+        width: 450px;
+        margin-left: -80px;
+    }
+    .description{
+        width: 50%;
+    }
+    .description h3{
+        font-size: 1.9rem;
+    }
+    .description ul{
+        font-size: 1.2rem;
+    }
+    .recipe{
+        width: 75%;
+        /* padding-left: -50px; */
+        padding: 0px -50px -50px -50px;
+        margin-bottom: -50px;
+    }
+    .ingridiants-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .ingridiants-text ol{
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        margin-left: 30px   ;
+    }
+    .recipe-text{
+        margin-top: -50px;
+    }
+    .steps ol{
+        font-size: 1.2rem;
+    }
+  }
+  
+  /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* code in this block will be applied only if device width>320 and <480 */
+    .links {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .nav {
+        margin: auto;
+        margin-left: 5px;
+    }
+
+    .login {
+        margin: auto;
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-left: 2px;
+        margin-right: -25px;
+        width: 10rem;
+    }
+
+    .navbar .toggle_btn {
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+    .search p {
+        display: none;
+    }
+
+    .search {
+        padding: 12px 4px 12px 4px;
+    }
+
+    .search i {
+        padding-left: 10px;
+    }
+    .content{
+        width: 65%;
+        margin-top: -50px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .recipe-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .image img{
+        width: 300px;
+        margin-left: -70px;
+    }
+    .description{
+        width: 90%;
+    }
+    .description h3{
+        font-size: 1.9rem;
+    }
+    .description ul{
+        font-size: 1.2rem;
+    }
+    .recipe{
+        width: 65%;
+        /* padding-left: -50px; */
+        padding: 0px -50px -50px -50px;
+        margin-bottom: -50px;
+    }
+    .ingridiants-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .ingridiants-text ol{
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        margin-left: 30px   ;
+    }
+    .recipe-text{
+        margin-top: -50px;
+    }
+    .steps ol{
+        font-size: 1.2rem;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contect{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .follow{
+        width: 100%;
+    }
+  }
